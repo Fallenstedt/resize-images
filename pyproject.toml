@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bulk-image-resizer"
+version = "0.1.0"
+description = "Resize all images in the current directory into ./resized."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow"]
+
+[project.scripts]
+resize-images = "resize:main"
+
+[tool.setuptools]
+py-modules = ["resize"]

@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache and build output
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+
+# Images
+images/
+resized/
+
+# macOS
+.DS_Store
